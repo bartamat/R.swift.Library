@@ -7,7 +7,7 @@
 //  License: MIT License
 //
 
-#if !os(watchOS)
+#if canImport(UIKit) && !os(watchOS)
 import Foundation
 import UIKit
 
